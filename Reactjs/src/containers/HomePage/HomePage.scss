@@ -1,0 +1,152 @@
+.slick-prev {
+  left: -15px !important;
+  z-index: 1000 !important;
+  height: 48px !important;
+  width: 44px !important;
+  background: white !important;
+  border: 2px solid #d7d7d7 !important;
+  &:hover {
+    background: #eaeaea !important;
+  }
+}
+.slick-prev::before,
+.slick-next::before {
+  font-family: FontAwesome !important;
+  color: red !important;
+}
+.slick-next {
+  right: -15px !important;
+  border: 1px solid red !important;
+  height: 48px !important;
+  width: 44px !important;
+  background: white !important;
+  border: 2px solid #d7d7d7 !important;
+  &:hover {
+    background: #eaeaea !important;
+  }
+}
+.slick-disabled {
+  display: none !important;
+}
+.section-share {
+  &.section-specialty {
+    background: #f5f5f5;
+  }
+  &.section-outstanding-doctor {
+    background: #f5f5f5;
+  }
+  &.section-about {
+    background: #f5f5f5;
+    height: 500px !important;
+    border-top: 1px solid #f5f5f5;
+  }
+  .section-body {
+    .section-customize {
+      .bg-image {
+        width: 300px;
+        height: 169px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-color: white;
+        &.section-specialty {
+
+        }
+        &.section-medical-facility {
+          background-image: url(../../assets/medical-facility/benhvien.jpg);
+        }
+        &.section-outstanding-doctor {
+
+          height: 120px;
+          width: 120px;
+          border-radius: 50%;
+        }
+        &.section-handbook {
+          background-image: url(../../assets/handbook/handbook.jpg);
+        }
+      }
+    }
+  }
+}
+
+.section-share {
+  height: 330px;
+  .section-container {
+    margin: 0 150px;
+    display: flex;
+    flex-direction: column;
+    .section-header {
+      height: 60px;
+      margin-bottom: 30px;
+      padding-top: 30px;
+      .title-section {
+        font-size: 22px;
+        font-weight: bold;
+      }
+      .btn-section {
+        float: right;
+        border: none;
+        outline: none;
+        display: block;
+        padding: 10px 15px;
+        background: white;
+        color: black;
+        cursor: pointer;
+        text-transform: uppercase;
+        &:hover {
+          background: yellow;
+          color: white;
+        }
+      }
+    }
+  }
+}
+.section-outstanding-doctor {
+  .section-customize {
+    padding: 10px;
+    cursor: pointer;
+    .customize-boder {
+      border: 2px solid white;
+      padding: 20px;
+    }
+  }
+
+  .outer-bg {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+}
+
+.home-footer {
+  text-align: center;
+  padding-top: 8px;
+  a {
+    text-decoration: unset;
+  }
+}
+
+.section-about {
+  padding: 0 100px;
+  .section-about-header {
+    padding: 20px 10px;
+    font-size: 22px;
+    font-weight: 600;
+  }
+  .section-about-content {
+    display: flex;
+    gap: 15px;
+    width: 100%;
+    .content-left {
+      width: 60%;
+    }
+    .content-right {
+      width: 40%;
+      p {
+        text-align: justify;
+        font-style: italic;
+        padding: 15px;
+      }
+    }
+  }
+}

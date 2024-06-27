@@ -1,0 +1,38 @@
+{
+  "name": "sern",
+  "version": "1.0.0",
+  "description": "backend nodejs TAN",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --exec babel-node src/server.js"
+  },
+  "keywords": [
+    "Fullstack",
+    "nodejs",
+    "Tan"
+  ],
+  "author": "Tan",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.19.0",
+    "buffer": "^6.0.3",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "lodash": "^4.17.21",
+    "mysql2": "^3.9.2",
+    "nodemailer": "^6.9.13",
+    "sequelize": "^6.37.1",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.24.0",
+    "@babel/node": "^7.23.9",
+    "@babel/preset-env": "^7.24.0",
+    "nodemon": "^3.1.0",
+    "sequelize-cli": "^6.6.2"
+  }
+}

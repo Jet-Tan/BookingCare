@@ -1,0 +1,11 @@
+button.close {
+    transform: unset;
+    outline: none;
+    border: none;
+    display: flex;
+    position: absolute;
+    right: 20px;
+    /* float: right; */
+    background-color: transparent;
+    font-size: 20px;
+}

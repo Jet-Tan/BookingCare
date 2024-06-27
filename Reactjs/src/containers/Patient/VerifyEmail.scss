@@ -1,0 +1,13 @@
+.verify-email-container {
+    margin-top: 10px;
+  .infor-booking {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: red;
+    &.active{
+        color: rgb(41, 33, 195);
+    }
+  }
+}
